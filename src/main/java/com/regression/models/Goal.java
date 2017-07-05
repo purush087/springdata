@@ -138,7 +138,7 @@ public class Goal {
 
     @Override
     public String toString(){
-        return String.format("com.goals.ApplicationTwo.Goal[goal_id=%d, mentee_id=%d, mentor_id=%d,title='%s', description='%s'," +
+        return String.format("Goal[goal_id=%d, mentee_id=%d, mentor_id=%d,title='%s', description='%s'," +
                         " start_date='%s',end_date='%s',expertise_id=%d,status=0, created_at='%s', updated_at='%s']",
                 goalId,mentee_id,mentor_id,title,description,start_date,end_date,expertise_id,status, created_at, updated_at);
     }
